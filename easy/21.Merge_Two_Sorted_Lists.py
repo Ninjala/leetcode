@@ -34,20 +34,25 @@ Example:
 #             l1.next = self.mergeTwoLists(l1.next, l2)
 #         return l1 or l2
 
-class Solution(object):
+class Solution:
     def mergeTwoLists(self, l1, l2):
-        dummy = ListNode(0)
-        tmp = dummy
-        while l1 != None and l2 != None:
-            if l1.val < l2.val:
-                tmp.next = l1
-                l1 = l1.next
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        mergelist = ListNode(0)           #先创建一个链表,指向0
+        temp = mergelist                  #将链表赋给temp
+        while l1 != None and l2 != None:        #当l1与l2不为空时，进入循环
+            if l1.val < l2.val:                   
+                temp.next = l1            #当l1小于l2时，将l1添加到temp的后面
+                l1 = l1.next             #将l1指向l1的下一个
             else:
-                tmp.next = l2
-                l2 = l2.next
-            tmp = tmp.next
+                temp.next = l2          #当l1大于l2时，将l2添加到temp的后面
+                l2 = l2.next             #将l2指向l2的下一个
+            temp = temp.next               #最后将temp向后移动，指向其最后一个（下一个）值
         if l1 != None:
-            tmp.next = l1
+            temp.next = l1
         else:
-            tmp.next = l2
-        return dummy.next
+            temp.next = l2
+        return mergelist.next
