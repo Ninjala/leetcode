@@ -37,7 +37,10 @@ class Solution:
         :type n: int
         :rtype: str
         """
-        s = '1'
+        s = '1'          # s为第一项的值
         for _ in range(n - 1):
             s = re.sub(r'(.)\1*', lambda m: str(len(m.group(0))) + m.group(1), s)
         return s
+
+ # '(.)\1*'中，'\1'表示重复匹配第一个括号中的内容。 
+ # re.sub()函数用于替换字符串中的匹配项,即将s中匹配的值替换为lambda m返回的值
