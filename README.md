@@ -2,6 +2,15 @@
 
 leetcode刷题笔记
 
+## 知识归纳
+
+* *str.index()与str.find()*
+
+> [**index()介绍**](http://www.runoob.com/python/att-string-index.html)
+
+> [**find()介绍**](http://www.runoob.com/python/att-string-find.html)
+
+
 ## 注意事项
 
 * **easy中的21.Merge_Two_Sorted_Lists**
@@ -17,5 +26,5 @@ leetcode刷题笔记
 
 也就是说，
 
-> return x or y 先评估x，如果x为真返回其值；否则，评估y并返回结果值。<br>
-> return x and y 先评估x，如果x为假，则返回其值；否则，评估y并返回结果值。
+> return x or y 先判断x，如果x为真返回其值；否则，判断y并返回结果值。<br>
+> return x and y 先判断x，如果x为假，则返回其值；否则，判断y并返回结果值。
