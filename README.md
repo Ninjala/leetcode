@@ -4,6 +4,8 @@ leetcode刷题笔记
 
 ## 知识归纳
 
+### Python字符串函数
+
 * *str.index()与str.find()*
 
 > [**index()介绍**](http://www.runoob.com/python/att-string-index.html)
@@ -12,7 +14,13 @@ leetcode刷题笔记
 
 * *str.strip()*
 
-> [*strip()介绍*](http://www.runoob.com/python/att-string-strip.html)
+> [**strip()介绍**](http://www.runoob.com/python/att-string-strip.html)
+
+### Python内置函数 
+
+[**bin()介绍**](http://www.runoob.com/python/python-func-bin.html)
+
+[**eval()介绍**](http://www.runoob.com/python/python-func-eval.html)
 
 ## 注意事项
 
