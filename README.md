@@ -10,6 +10,9 @@ leetcode刷题笔记
 
 > [**find()介绍**](http://www.runoob.com/python/att-string-find.html)
 
+* *str.strip()*
+
+> [*strip()介绍*](http://www.runoob.com/python/att-string-strip.html)
 
 ## 注意事项
 
