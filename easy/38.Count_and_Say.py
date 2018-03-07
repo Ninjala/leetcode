@@ -37,7 +37,7 @@ class Solution:
         :type n: int
         :rtype: str
         """
-        s = '1'          # s为第一项的值
+        s = '1'          # s为第一项的值（设成字符串型，是为了便于进行字符串加减）
         for _ in range(n - 1):
             s = re.sub(r'(.)\1*', lambda m: str(len(m.group(0))) + m.group(1), s)
         return s
