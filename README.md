@@ -28,9 +28,17 @@ leetcode刷题笔记
 
 #### BFS与DFS
 
-> 广度优先搜索BFS(Breadth First Search)
+ **广度优先搜索BFS(Breadth First Search)**
 
-> 深度优先搜索DFS(Depth First Search)
+> 使用队列保存未被检测的结点。结点按照宽度优先的次序被访问和进出队列。
+
+> *eg:* 你的眼镜掉地上，你总是先从离你最近的地方摸索，如果没有，再摸远一点的地方...
+
+ **深度优先搜索DFS(Depth First Search)**
+
+> 使用栈保存未被检测的结点，结点按照深度优先的次序被访问并依次被压入栈中，并以相反的次序出栈进行新的检测。
+
+> *eg:* 走迷宫 -- 不撞南墙不回头...
 
 * [**BFS与DFS介绍**](https://www.cnblogs.com/gczr/p/6476577.html)
 
