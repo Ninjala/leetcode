@@ -24,6 +24,17 @@ leetcode刷题笔记
 
 [**map()介绍**](http://www.runoob.com/python/python-func-map.html)
 
+### 算法
+
+#### BFS与DFS
+
+> 广度优先搜索BFS(Breadth First Search)
+
+> 深度优先搜索DFS(Depth First Search)
+
+* [**BFS与DFS介绍**](https://www.cnblogs.com/gczr/p/6476577.html)
+
+
 ## 注意事项
 
 * **easy中的21.Merge_Two_Sorted_Lists**
