@@ -22,6 +22,8 @@ leetcode刷题笔记
 
 [**eval()介绍**](http://www.runoob.com/python/python-func-eval.html)
 
+[**map()介绍**](http://www.runoob.com/python/python-func-map.html)
+
 ## 注意事项
 
 * **easy中的21.Merge_Two_Sorted_Lists**
