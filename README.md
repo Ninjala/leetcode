@@ -45,7 +45,7 @@ leetcode刷题笔记
 
 ## 注意事项
 
-* **easy21.Merge_Two_Sorted_Lists**
+* **easy:21.Merge_Two_Sorted_Lists**
 
 ```python
 	return a or b
